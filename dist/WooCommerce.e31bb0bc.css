@@ -1,0 +1,66 @@
+.header-conteiner {
+  width: 1920px;
+  padding-top: 37px;
+  background: linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+
+.header-box {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.header-box a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #272d4e;
+}
+
+.logo-link {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-box {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 144px;
+}
+.navigation-box li:not(:first-child) {
+  margin-left: 38px;
+}
+
+.registration-box {
+  margin: 0;
+  padding: 0;
+  margin-left: 717px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.registration-box li:not(:first-child) {
+  margin-left: 38px;
+}
+
+.get-started {
+  width: 120px;
+  height: 47px;
+  background-color: #7854f7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/*# sourceMappingURL=/WooCommerce.e31bb0bc.css.map */
