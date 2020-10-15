@@ -1,9 +1,10 @@
+body {
+  max-width: 1920px;
+}
 .header-conteiner {
-  // width: 1920px;
   padding-top: 37px;
   padding-left: 55px;
   padding-right: 55px;
-  // height: 1188px;
   background: linear-gradient(
     180deg,
     #e5efff 0%,
@@ -44,7 +45,6 @@
 .registration-box {
   margin: 0;
   padding: 0;
-  // margin-left: 710px;
   display: flex;
   list-style: none;
   align-items: center;
@@ -122,5 +122,83 @@
       color: #299ef3;
       font-weight: bold;
     }
+  }
+}
+//------------offers-section-----------------
+.offers-section {
+  padding-left: 55px;
+  padding-right: 55px;
+  h2 {
+    margin: auto;
+    padding: 0;
+    width: 457px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 1.27;
+    text-align: center;
+    color: #272d4e;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.94;
+    color: #272d4e;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #94a2b3;
+  }
+  a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.39;
+    color: #299ef3;
+  }
+}
+.list-offers {
+  margin: 0;
+  padding: 0;
+  height: 692px;
+  display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content: center;
+  list-style: none;
+  li {
+    // height: max-content;
+    display: flex;
+    flex-direction: column;
+    &:not(:first-child) {
+      margin-left: 70px;
+    }
+  }
+  &:nth-child(1) {
+    align-items: flex-start;
+  }
+  &:nth-child(2) {
+    align-items: center;
+  }
+  &:nth-child(3) {
+    align-items: flex-end;
   }
 }

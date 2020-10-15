@@ -1,3 +1,7 @@
+body {
+  max-width: 1920px;
+}
+
 .header-conteiner {
   padding-top: 37px;
   padding-left: 55px;
@@ -123,6 +127,81 @@
 .button-box a span {
   color: #299ef3;
   font-weight: bold;
+}
+
+.offers-section {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.offers-section h2 {
+  margin: auto;
+  padding: 0;
+  width: 457px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 1.27;
+  text-align: center;
+  color: #272d4e;
+}
+.offers-section img {
+  width: 100%;
+}
+.offers-section h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.94;
+  color: #272d4e;
+}
+.offers-section p {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #94a2b3;
+}
+.offers-section a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #299ef3;
+}
+
+.list-offers {
+  margin: 0;
+  padding: 0;
+  height: 692px;
+  display: flex;
+  list-style: none;
+}
+.list-offers li {
+  display: flex;
+  flex-direction: column;
+}
+.list-offers li:not(:first-child) {
+  margin-left: 70px;
+}
+.list-offers:nth-child(1) {
+  align-items: flex-start;
+}
+.list-offers:nth-child(2) {
+  align-items: center;
+}
+.list-offers:nth-child(3) {
+  align-items: flex-end;
 }
 
 /*# sourceMappingURL=/WooCommerce.e31bb0bc.css.map */
