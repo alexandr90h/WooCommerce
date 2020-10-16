@@ -145,8 +145,8 @@ body {
   text-align: center;
   color: #272d4e;
 }
-.offers-section img {
-  width: 100%;
+.offers-section img.main-images-list {
+  object-fit: contain;
 }
 .offers-section h3 {
   margin: 0;
@@ -182,26 +182,79 @@ body {
 
 .list-offers {
   margin: 0;
+  margin-top: 81px;
   padding: 0;
   height: 692px;
   display: flex;
   list-style: none;
 }
 .list-offers li {
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
 .list-offers li:not(:first-child) {
   margin-left: 70px;
 }
-.list-offers:nth-child(1) {
-  align-items: flex-start;
+.list-offers li:nth-child(1) {
+  justify-content: flex-start;
 }
-.list-offers:nth-child(2) {
+.list-offers li:nth-child(2) {
+  justify-content: center;
+}
+.list-offers li:nth-child(3) {
+  justify-content: flex-end;
+}
+
+.asd {
+  background-color: lawngreen;
+  position: relative;
+}
+
+.test {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main {
+  margin: auto;
+  background-color: hotpink;
+  width: 800px;
+  height: 400px;
+}
+
+.a {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #09ff00;
 }
-.list-offers:nth-child(3) {
-  align-items: flex-end;
+
+.b {
+  background-color: #2600ff;
+  width: 100px;
+  height: 100px;
+}
+
+.c {
+  position: absolute;
+  background-color: #fffb00;
+  width: 50px;
+  height: 50px;
+  top: -20px;
+  left: -20px;
+}
+
+.a-a {
+  display: block;
+  position: absolute;
+  width: 202px;
+  height: 264px;
+  left: -50px;
+  top: 58px;
 }
 
 /*# sourceMappingURL=/WooCommerce.e31bb0bc.css.map */
